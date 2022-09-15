@@ -84,3 +84,4 @@ curl -o countries.txt "https://gist.githubusercontent.com/kalinchernev/486393efc
 13. Liste todos os arquivos que terminem com `tbt` ou `txt`.
 
 14. Acesse o manual do comando `ls`.
+
