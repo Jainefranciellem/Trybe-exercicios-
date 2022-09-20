@@ -1,19 +1,85 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: black;
+}
+body {
+    background: rgb(27,101,13);
+    background: linear-gradient(278deg, rgb(31, 156, 179) 0%, #E5D6C7 69%);;
+    
 }
 
-header, h1, nav{
+header{
+    height: 70px;
+    padding: 2px;
+    align-items: center;
+    background: rgb(27,101,13);
+    background: linear-gradient(278deg, rgb(31, 156, 179) 0%, #E5D6C7  69%);
+    border-bottom: 0.1px solid rgba(69, 35, 10, 0.839);
+    box-shadow: 0px 5px 20px #000;
     display: flex;
-    justify-content: space-between;
-    padding: 4px;
-    background-color: rgb(83, 115, 28);
-    font-size: 25px; 
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 .menu, li, a{
     display: flex;
     text-decoration: none;
-    padding: 5px;
+    padding: 1px;
     font-size: 20px;
-    color: black;
+    color: #000; 
+     
 }
+
+.infos, h1{
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+
+main{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    text-align: center;
+}
+.curiosidade {
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    
+}
+
+p, h3{
+    display: block;
+    flex-wrap: wrap;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+img{
+    border-radius: 10px;
+    box-shadow: 0px 6px 20px #000; 
+} 
+
+.referencias, ul, li, a{
+    padding: 10px;
+    text-align: center;
+}
+h3 { 
+    font-size: 25px;
+}
+.links{
+    display: flex;
+    text-align: center;
+    align-items: center;
+
+}
+
+footer{
+    text-align: center;
+
+}
+
