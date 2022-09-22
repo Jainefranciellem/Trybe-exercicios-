@@ -17,7 +17,7 @@ header{
     align-items: center;
     background: rgb(27,101,13);
     background: linear-gradient(278deg, rgb(31, 156, 179) 0%, #E5D6C7  69%);
-    border-bottom: 0.1px solid rgba(69, 35, 10, 0.839);
+    border-bottom: 0.1px solid rgba(236, 198, 166, 0.839);
     box-shadow: 0px 5px 20px #000;
     display: flex;
     flex-wrap: wrap;
@@ -71,10 +71,9 @@ img{
 h3 { 
     font-size: 25px;
 }
-.links{
+.link{
     display: flex;
     text-align: center;
-    align-items: center;
 
 }
 
