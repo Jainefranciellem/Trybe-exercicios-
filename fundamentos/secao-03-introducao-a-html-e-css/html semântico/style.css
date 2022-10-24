@@ -17,7 +17,7 @@ header{
     align-items: center;
     background: rgb(27,101,13);
     background: linear-gradient(278deg, rgb(31, 156, 179) 0%, #E5D6C7  69%);
-    border-bottom: 0.1px solid rgba(69, 35, 10, 0.839);
+    border-bottom: 0.1px solid rgb(251, 233, 221);
     box-shadow: 0px 5px 20px #000;
     display: flex;
     flex-wrap: wrap;
@@ -28,7 +28,7 @@ header{
     text-decoration: none;
     padding: 1px;
     font-size: 20px;
-    color: #fff);  
+    color: #fff;  
 }
 .artigo{
     padding: 20px;
