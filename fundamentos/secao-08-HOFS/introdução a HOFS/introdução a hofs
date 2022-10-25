@@ -1,3 +1,5 @@
+//Exercicio 1
+
 const nomeCompleto = (nome) => {
   const email = nome.toLowerCase().split(' ').join('_');
   const object = {
@@ -16,5 +18,15 @@ const newEmployees = (callback) => {
   }
   return employees;
 };
-
 console.log(newEmployees(nomeCompleto));
+
+//Exercicio 2
+
+const checaNumeros = (numeroApostado, numeroSorteado) => numeroApostado === numeroSorteado;
+
+const resultadoSorteio = (numeroApostado, callBack) => {
+  const numeroSorteado = Math.floor((Math.random() * 5) + 1);
+  return callBack(numeroApostado, numeroSorteado) ? 'Parabéns você ganhou' : 'Tente novamente';
+}
+ 
+console.log(resultadoSorteio(5,checaNumeros));
