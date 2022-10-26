@@ -36,7 +36,7 @@ const STUDENT_ANSWERS = ['A', 'N.A', 'B', 'D', 'A', 'C', 'N.A', 'A', 'D', 'B'];
 let result = 0
 const compara = () => {
   for (let i = 0; i < RIGHT_ANSWERS.length; i++) {
-      if(RIGHT_ANSWERS[i] ===  STUDENT_ANSWERS[i])
+      if(RIGHT_ANSWERS[i] ===  STUDENT_ANSWERS[i]);
     
   }
 }
